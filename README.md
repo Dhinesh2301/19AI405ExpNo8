@@ -73,9 +73,10 @@ Begin<br>
 End<br>
 <hr>
 PROGRAM :
-from itertools import permutations
 
-def solve_cryptarithmetic():
+    from itertools import permutations
+
+    def solve_cryptarithmetic():
     for perm in permutations(range(10), 8):
         S, E, N, D, M, O, R, Y = perm
 
