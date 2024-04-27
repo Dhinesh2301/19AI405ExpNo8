@@ -72,8 +72,7 @@ Begin<br>
    return false<br>
 End<br>
 <hr>
-program
-```
+PROGRAM :
 from itertools import permutations
 
 def solve_cryptarithmetic():
