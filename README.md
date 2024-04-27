@@ -94,15 +94,15 @@ PROGRAM :
 
     return None
 
-solution = solve_cryptarithmetic()
+       solution = solve_cryptarithmetic()
 
-if solution:
-    SEND, MORE, MONEY = solution
-    print(f'SEND = {SEND}')
-    print(f'MORE = {MORE}')
-    print(f'MONEY = {MONEY}')
-else:
-    print("No solution found.")
+     if solution:
+        SEND, MORE, MONEY = solution
+        print(f'SEND = {SEND}')
+        print(f'MORE = {MORE}')
+        print(f'MONEY = {MONEY}')
+     else:
+       print("No solution found.")
     ```
 <h2>Sample Input and Output:</h2>
 SEND = 9567<br>
